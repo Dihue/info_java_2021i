@@ -48,4 +48,14 @@ public class employee {
         this.setBirthDay(birthDay);
         this.setSalary(salary);
     }
+
+    @Override
+    public String toString() {
+        return "employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthDay=" + birthDay +
+                ", salary=" + salary +
+                '}';
+    }
 }
