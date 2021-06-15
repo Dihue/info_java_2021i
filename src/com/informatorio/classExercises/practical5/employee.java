@@ -51,11 +51,6 @@ public class employee {
 
     @Override
     public String toString() {
-        return "employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", birthDay=" + birthDay +
-                ", salary=" + salary +
-                '}';
+        return this.getFirstName() +" "+ this.getLastName();
     }
 }

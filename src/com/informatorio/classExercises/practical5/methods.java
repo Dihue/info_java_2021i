@@ -34,8 +34,8 @@ public class methods {
     private static void lineEmployee(String lineList) {
         if (lineList != null) {
             String[] data = lineList.split(",");
-            employee create = new employee(data[0],data[1],data[2],data[3]);
-            System.out.println(data);
+            employee create = new employee(data[0], data[1], data[2], data[3]);
+
             employeeList.add(create);
         }
     }
