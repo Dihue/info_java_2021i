@@ -11,7 +11,7 @@ public class Exercise_1 {
         Scanner input = new Scanner(System.in);
 
         // Aviso por pantalla
-        System.out.print("Ingresar nombre de usuario: ");
+        System.out.print("Enter username: ");
         // Escanea la siguente palabra o cadena de palabras
         String name = input.nextLine();
 

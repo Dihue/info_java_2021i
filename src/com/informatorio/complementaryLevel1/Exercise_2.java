@@ -12,12 +12,12 @@ public class Exercise_2 {
         Scanner input = new Scanner(System.in);
 
         // Aviso por pantalla
-        System.out.print("Ingresar primer número entero: ");
+        System.out.print("Enter first number: ");
         // Escanea el siguiente número ingresado
         int nro1 = input.nextInt();
 
         // Aviso por pantalla
-        System.out.print("Ingresar segundo número entero: ");
+        System.out.print("Enter second number: ");
         // Escanea el siguiente número ingresado
         int nro2 = input.nextInt();
 
